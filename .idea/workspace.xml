@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe370cf7-fcdf-437b-9021-a36606b5bd4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ConfigurationAttack/amcts_dodging_CCS18.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigurationLearning/ConfigurationLearningRNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigurationLearning/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/simannealing_impersonation.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/test_amcts_impersonation_Usenix.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/test_simannealing_impersonation_Usenix.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
