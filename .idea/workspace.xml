@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe370cf7-fcdf-437b-9021-a36606b5bd4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/simannealing_impersonation.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/test_amcts_impersonation_Usenix.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/test_simannealing_impersonation_Usenix.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/EvasionTesting/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/EvasionTesting/test_AMCTS_SimAnneal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/TransformerTesting/BBAttackInstanceSecure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/TransformerTesting/Tester.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/TransformerTesting/TransformerAttackTester.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/testFeatureExtractionv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/test_learningv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/LearnSetups/LearnSetup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/LearnSetups/LearnSetupDNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/LearnSetups/LearnSetupRLF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/LearnSetups/LearnSetupRNNRF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/LearnSetups/LearnSetupSVM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/LearnSetups/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/NovelAPI/Learning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/NovelAPI/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/NovelAPI/utils_classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/StratifiedKFoldProblemId.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/utils_learning_dnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/utils_learning_rnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification/utils_load_learnsetup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,5 +70,8 @@
       <updated>1742707662176</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
 </project>
