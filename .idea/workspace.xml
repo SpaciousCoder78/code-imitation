@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe370cf7-fcdf-437b-9021-a36606b5bd4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset_preprocessing/DataTesting/OutputCreator/RunAuthor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset_preprocessing/DataTesting/OutputCreator/Tester.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset_preprocessing/DataTesting/OutputCreator/start_Tester.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset_preprocessing/remove_macros.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/blackbox/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/blackbox/attack/blackbox_attack_batch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/blackbox/attack/start_batch_blackbox.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/blackbox/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/learning/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/learning/post_learning_steps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/learning/post_learning_steps/analyze_model_features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/learning/post_learning_steps/analyze_rnnmodel_features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/learning/post_learning_steps/collect_authorpairs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/learning/post_learning_steps/collect_authorspairs_allmodels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/tutorial_classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/tutorial_classification_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evasion/AttackEval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evasion/AttackMode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evasion/AttackResult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evasion/AttackStatus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evasion/Author.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evasion/BBAttackInstance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evasion/BBBatchAttackInstanceHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evasion/BBMCTSBatchAttackInstanceHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evasion/EvasionAlgorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evasion/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evasion/utils_attack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evasion/utils_attack_workflow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evasion/utils_launch_attacks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
