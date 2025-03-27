@@ -118,3 +118,4 @@ rlf.fit( trainfiles.getfeaturematrix(), trainfiles.getlabels())
 ypred = rlf.predict(testfiles.getfeaturematrix())
 print("Accuracy:", accuracy_score(y_true=testfiles.getlabels(), y_pred=ypred))
 # I get 86.76% accuracy. With a better hyperparameter selection, we get a higher accuracy.
+

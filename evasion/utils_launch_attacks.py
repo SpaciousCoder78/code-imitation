@@ -235,3 +235,4 @@ def log_seed_process(status: bool, curseed: int, seedrange: tuple, logger):
     if status is True:
         if curseed > seedrange[0]:
             logger.debug("Success in {}. OUTER-iteration.".format(curseed - seedrange[0]))
+

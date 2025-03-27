@@ -86,3 +86,4 @@ class StratifiedKFoldProblemId(BaseCrossValidator):
     def _iter_test_indices(self, X=None, y=None, groups=None):
         """Generates integer indices corresponding to test sets."""
         raise NotImplementedError
+

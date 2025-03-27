@@ -82,3 +82,4 @@ class AttackResult:
     def __str__(self):
         return "AttackResult:" + "-".join([self.sourceauthor.author, self.targetauthor.author, self.attackstatus.name])
 
+

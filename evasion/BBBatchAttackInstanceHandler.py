@@ -368,3 +368,4 @@ class BBBatchAttackInstanceHandler:
             return "\n"
 
 
+

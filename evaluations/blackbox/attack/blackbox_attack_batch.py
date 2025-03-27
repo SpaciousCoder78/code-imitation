@@ -192,3 +192,4 @@ for iteration, proc in enumerate(procs):
 
 Global_Logging.close_logger_sequential(logger=global_logger)
 print("Attack finished on " + PROBLEM_ID + "_" + str(BATCH_ID))
+

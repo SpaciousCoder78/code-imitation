@@ -52,3 +52,4 @@ with open(os.path.join(output_dir, "all_features_unigram_set.log"), "w") as text
     for feat_v in all_feature_names:
         if "_unigram_" in feat_v:
             print("%s" % feat_v, file=text_file)
+

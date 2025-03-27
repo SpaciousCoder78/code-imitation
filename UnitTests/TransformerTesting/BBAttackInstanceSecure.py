@@ -153,3 +153,4 @@ class BBAttackInstanceSecure(BBAttackInstance):
 
 
         return loadnewfeatures, error_code, transf_call
+
