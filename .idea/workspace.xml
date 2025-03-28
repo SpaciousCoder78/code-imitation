@@ -5,78 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe370cf7-fcdf-437b-9021-a36606b5bd4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/evasion/Transformers/BasicTransformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evasion/Transformers/Ext_IWYUTransformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evasion/Transformers/IncludeSortTransformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evasion/Transformers/TemplateTransformers/AddTemplateTransformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evasion/Transformers/TemplateTransformers/GlobalConstTransformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evasion/Transformers/TemplateTransformers/IncludeAddTransformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evasion/Transformers/TemplateTransformers/TypedefNameTransformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evasion/Transformers/TemplateTransformers/VarFctNameTransformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evasion/Transformers/TemplateTransformers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evasion/Transformers/TransformerBase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evasion/Transformers/TransformerHandler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evasion/Transformers/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationAttack/Settings/amcts_dodging_CCS18.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/amcts_dodging_CCS18.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationAttack/Settings/amcts_dodging_Usenix.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/amcts_dodging_Usenix.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationAttack/Settings/amcts_impersonation_CCS18.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/amcts_impersonation_CCS18.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationAttack/Settings/amcts_impersonation_Usenix.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/amcts_impersonation_Usenix.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationAttack/Settings/simannealing_dodging.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/simannealing_dodging.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationAttack/Settings/simannealing_impersonation.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/simannealing_impersonation.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationAttack/Settings/test_amcts_impersonation_Usenix.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/test_amcts_impersonation_Usenix.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationAttack/Settings/test_simannealing_impersonation_Usenix.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationAttack/Settings/test_simannealing_impersonation_Usenix.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationGlobalLearning.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationGlobalLearning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationLearning/ConfigurationLearning.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationLearning/ConfigurationLearning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationLearning/ConfigurationLearningRNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationLearning/ConfigurationLearningRNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitTests/EvasionTesting/test_AMCTS_SimAnneal.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/EvasionTesting/test_AMCTS_SimAnneal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/TransformerTesting/BBAttackInstanceSecure.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/TransformerTesting/BBAttackInstanceSecure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/TransformerTesting/Tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/TransformerTesting/Tester.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/TransformerTesting/TransformerAttackTester.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/TransformerTesting/TransformerAttackTester.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/testFeatureExtractionv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/testFeatureExtractionv2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/test_learningv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/test_learningv2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/LearnSetups/LearnSetup.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/LearnSetups/LearnSetup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/LearnSetups/LearnSetupDNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/LearnSetups/LearnSetupDNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/LearnSetups/LearnSetupRLF.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/LearnSetups/LearnSetupRLF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/LearnSetups/LearnSetupRNNRF.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/LearnSetups/LearnSetupRNNRF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/LearnSetups/LearnSetupSVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/LearnSetups/LearnSetupSVM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/NovelAPI/Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/NovelAPI/Learning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/NovelAPI/utils_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/NovelAPI/utils_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/StratifiedKFoldProblemId.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/StratifiedKFoldProblemId.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/utils_learning_dnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/utils_learning_dnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/utils_learning_rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/utils_learning_rnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/utils_load_learnsetup.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/utils_load_learnsetup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config_example.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config_example.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset_preprocessing/DataTesting/OutputCreator/RunAuthor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset_preprocessing/DataTesting/OutputCreator/Tester.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset_preprocessing/DataTesting/OutputCreator/start_Tester.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset_preprocessing/remove_macros.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset_preprocessing/remove_macros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluations/blackbox/attack/blackbox_attack_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluations/blackbox/attack/blackbox_attack_batch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluations/blackbox/attack/start_batch_blackbox.sh" beforeDir="false" afterPath="$PROJECT_DIR$/evaluations/blackbox/attack/start_batch_blackbox.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluations/blackbox/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluations/blackbox/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluations/learning/post_learning_steps/analyze_model_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluations/learning/post_learning_steps/analyze_model_features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluations/learning/post_learning_steps/analyze_rnnmodel_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluations/learning/post_learning_steps/analyze_rnnmodel_features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluations/learning/post_learning_steps/collect_authorpairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluations/learning/post_learning_steps/collect_authorpairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluations/learning/post_learning_steps/collect_authorspairs_allmodels.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluations/learning/post_learning_steps/collect_authorspairs_allmodels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluations/tutorial_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluations/tutorial_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluations/tutorial_classification_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluations/tutorial_classification_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evasion/AttackEval.py" beforeDir="false" afterPath="$PROJECT_DIR$/evasion/AttackEval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evasion/AttackMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/evasion/AttackMode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evasion/AttackResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/evasion/AttackResult.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evasion/AttackStatus.py" beforeDir="false" afterPath="$PROJECT_DIR$/evasion/AttackStatus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evasion/Author.py" beforeDir="false" afterPath="$PROJECT_DIR$/evasion/Author.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evasion/BBAttackInstance.py" beforeDir="false" afterPath="$PROJECT_DIR$/evasion/BBAttackInstance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evasion/BBBatchAttackInstanceHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/evasion/BBBatchAttackInstanceHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evasion/BBMCTSBatchAttackInstanceHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/evasion/BBMCTSBatchAttackInstanceHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evasion/EvasionAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/evasion/EvasionAlgorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evasion/utils_attack.py" beforeDir="false" afterPath="$PROJECT_DIR$/evasion/utils_attack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evasion/utils_attack_workflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/evasion/utils_attack_workflow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evasion/utils_launch_attacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/evasion/utils_launch_attacks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils_authorship.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils_authorship.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +27,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in test_AMCTS_SimAnneal.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ConfigurationLearning.executor&quot;: &quot;Run&quot;,
     &quot;Python.utils_authorship.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">

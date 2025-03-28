@@ -9,6 +9,8 @@ import pickle
 import sys
 import os
 
+
+
 from evasion.AttackEval import AttackEvalImpersonation, AttackEvalFixedDodging, AttackEvalAbstract
 import evasion.utils_launch_attacks
 import classification.utils_load_learnsetup
@@ -25,8 +27,12 @@ from evasion.BlackBox.AttackSettings import SimAnnealingSettings, MCTSClassicSet
 # evasion_algorithm: EvasionAlgorithm = EvasionAlgorithm.SimAnnealing
 evasion_algorithm: EvasionAlgorithm = EvasionAlgorithm.MCTS_Classic
 
-
-
+def load_default_problem_id():
+    base_dir = os.path.abspath(os.path.join('.', 'OneDrive', 'Documents', 'Github', 'code-imitation'))
+    model_path = os.path.join(base_dir, 'data', 'ClassificationModels', 'Usenix_RF', 'model_3264486_5736519012712448_RF_1.0.pck')
+    with open(model_path, 'rb') as curf:
+        model_data = curf.read()
+    return model_data
 
 
 ############################################################# ##########################################################
