@@ -1,6 +1,8 @@
 """
     Test for feature extraction with new API2.
 """
+import sys
+sys.path.insert(0,r'../')
 
 from featureextractionV2.StyloFeaturesProxy import StyloFeaturesProxy
 from featureextractionV2.StyloARFFFeatures import StyloARFFFeatures
@@ -15,6 +17,7 @@ import unittest
 import hashlib
 import os
 import copy
+
 
 
 class TestFeatureExtraction(unittest.TestCase):

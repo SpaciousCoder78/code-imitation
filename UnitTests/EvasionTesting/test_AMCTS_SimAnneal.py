@@ -9,6 +9,10 @@ import pickle
 import sys
 import os
 
+sys.path.insert(0,r'../../')
+
+
+
 
 
 from evasion.AttackEval import AttackEvalImpersonation, AttackEvalFixedDodging, AttackEvalAbstract
@@ -22,21 +26,19 @@ from evasion.EvasionAlgorithm import EvasionAlgorithm
 from evasion.BlackBox.AttackSettings import SimAnnealingSettings, MCTSClassicSettings
 
 
+
+
 ############### ############### ############### ############### ###############
 ## The only thing you have to do is to decide on attack algorith. Then just run and check if no warnings are shown later
 # evasion_algorithm: EvasionAlgorithm = EvasionAlgorithm.SimAnnealing
 evasion_algorithm: EvasionAlgorithm = EvasionAlgorithm.MCTS_Classic
 
-def load_default_problem_id():
-    base_dir = os.path.abspath(os.path.join('.', 'OneDrive', 'Documents', 'Github', 'code-imitation'))
-    model_path = os.path.join(base_dir, 'data', 'ClassificationModels', 'Usenix_RF', 'model_3264486_5736519012712448_RF_1.0.pck')
-    with open(model_path, 'rb') as curf:
-        model_data = curf.read()
-    return model_data
+
+
 
 
 ############################################################# ##########################################################
-PROBLEM_ID = "3264486_5736519012712448"
+PROBLEM_ID = "authorpairsforimpersonationAllProblems_Usenix"
 # PROBLEM_ID = "8294486_5630967708385280"
 print("Load default problem id, as in python console mode. Will not parse args", file=sys.stderr)
 
@@ -45,6 +47,22 @@ learn_method: str = "RF"
 feature_method: str = "Usenix"
 IMPERSONATION = True
 
+current_dir = os.path.dirname(os.path.abspath('../../'))
+
+# Move from 'UnitTests/EvasionTesting' up two levels and then into 'code-imitation'.
+repo_root = os.path.join(current_dir,'code-imitation')
+
+# Construct the final path to the data folder.
+model_dir = os.path.join(repo_root, 'data', 'ClassificationModels', 'authorpairs')
+model_file = os.path.join(model_dir, 'authorpairsforimpersonationAllProblems_Usenix_RF_1.0.pck')
+
+print('Using model file:', model_file)
+
+if not os.path.exists(model_file):
+    raise FileNotFoundError(f'Path does not exist: {model_file}')
+
+with open(model_file, 'rb') as f:
+    model_data = f.read()
 ####
 attackdir = os.path.join(config.attackdirConfig, "_".join(["test_mcts_simanneal_blackbox", PROBLEM_ID, feature_method, learn_method,
                                                  str(threshold_sel), str(IMPERSONATION), evasion_algorithm.name]))

@@ -21,8 +21,8 @@ def load_learnsetup(learnmodelspath: str, feature_method: str, learn_method: str
     """
 
     dirwithmodel = feature_method + "_" + learn_method
-    modelfile = os.path.join(learnmodelspath, dirwithmodel,
-                             "model_" + problem_id + "_" + learn_method + "_" +
+    modelfile = os.path.join(learnmodelspath, "authorpairs",
+                              problem_id + "_" + learn_method + "_" +
                              str(threshold_sel) + ".pck")
 
     if learn_method == "SVM" or learn_method == "RF":

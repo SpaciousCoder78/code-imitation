@@ -4,6 +4,8 @@ ATTACK EVALUATION ::::::: !!!!!! ::::::: !!!!!! :::::::
 import numpy as np
 import pickle
 import os
+import sys
+sys.path.insert(0,r'../../../')
 
 from evasion.AttackEval import AttackEvalImpersonation, AttackEvalFixedDodging, AttackEvalAbstract
 import evasion.utils_launch_attacks
