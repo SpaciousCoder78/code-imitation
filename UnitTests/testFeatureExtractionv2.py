@@ -29,8 +29,9 @@ class TestFeatureExtraction(unittest.TestCase):
 
         configuration_learning: ConfigurationLearning = ConfigurationLearning(
             repo_path=Config.repo_path,
-            dataset_features_dir=os.path.join(Config.repo_path, "data/dataset_2017/libtoolingfeatures_for_public_testing/"),
-            suffix_data="_2017_8_formatted_macrosremoved",
+            dataset_features_dir=os.path.join(Config.repo_path, "data", "dataset_2017",
+                                              "libtoolingfeatures_for_public_testing",),
+            suffix_data="8_formatted_macrosremoved",  # Updated suffix to match actual directory
             learnmodelspath=Config.learnmodelspath,
             use_lexems=False,
             use_lexical_features=False,
@@ -41,7 +42,7 @@ class TestFeatureExtraction(unittest.TestCase):
             hyperparameters=None
         )
 
-        # A. First, get the author iids so that we have a unique key for each source file. To this end, we simply load
+        # Debugging: Print the constructed
         # the whole dataset (but just the arff features).
         arffmatrix = StyloARFFFeatures(inputdata=configuration_learning.arffile, removelog=True)
         iids = arffmatrix.getiids()
